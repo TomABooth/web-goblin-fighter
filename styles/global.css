@@ -37,7 +37,22 @@ main {
 }
 
 #input-section {
-    background-color: red;
+    display: grid;
+    grid-template-rows: 75px 50px 75px 75px;
+    height: 300px;
+}
+
+#add-goblin-form {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#scoreboard {
+    background-color: pink;
+}
+
+#result-display {
+    background-color: orange;
 }
 
 #user-area {
@@ -48,7 +63,6 @@ main {
     height: 350px;
     padding: 10px;
     background-color: red;
-    width: 350px;
 }
 
 #goblin-area {
@@ -56,5 +70,5 @@ main {
     grid-template-rows: 1fr 1fr 1fr;
     justify-items: center;
     font-size: 50px;
-    background-color: blue;
+    min-width: 500px;
 }
