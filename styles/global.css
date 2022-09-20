@@ -32,4 +32,29 @@ header .logo {
 
 main {
     padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#input-section {
+    background-color: red;
+}
+
+#user-area {
+    display: grid;
+    grid-template-rows: 200px 150px;
+    justify-items: center;
+    font-size: 50px;
+    height: 350px;
+    padding: 10px;
+    background-color: red;
+    width: 350px;
+}
+
+#goblin-area {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    font-size: 50px;
+    background-color: blue;
 }
