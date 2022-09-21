@@ -1,7 +1,7 @@
 /* Imports */
 
 /* Get DOM Elements */
-
+const scoreboard = document.getElementById('scoreboard');
 /* State */
 
 /* Events */
